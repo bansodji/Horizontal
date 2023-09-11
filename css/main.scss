@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import "./var";
+@import "./site";
+@import "./style";
+
+.body-container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    // white-space: nowrap;
+}
+header{
+    transition: 300ms;
+}
+.navigation {
+    width: 30vw;
+    height: 100vh;
+    border-right: 1px solid #000;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+
+    .nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .nav-1 {
+            padding: 0.6rem;
+            height: 100%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .nav-2 {
+            padding: 0.6rem;
+            height: 100%;
+            width: 10%;
+        }
+    }
+
+}
+
+@media(max-width:992px) {
+    .navigation {
+        width: 50vw;
+    }
+}
+
+@media(max-width:576px) {
+    .navigation {
+        width: 80vw;
+    }
+}
+
+.hero {
+    .hero-container {
+        display: flex;
+
+        .hero-spacer {
+            width: 30vw;
+            height: 40vh;
+        }
+    }
+}

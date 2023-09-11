@@ -1,0 +1,78 @@
+$theme1: #ebeae9;
+$theme2: #d45456;
+$body: #ebeae9;
+$light: #e9e3d7;
+$black: #232323;
+$fff: #fff;
+
+.theme1 {
+    color: $theme1;
+
+    &:hover,&:focus {
+        color: $theme1 !important;
+    }
+}
+
+.theme2 {
+    color: $theme2;
+
+    &:hover,&:focus {
+        color: $theme2 !important;
+    }
+}
+
+.body {
+    color: $body;
+
+    &:hover,&:focus {
+        color: $body !important;
+    }
+}
+
+.light {
+    color: $light;
+
+    &:hover,&:focus {
+        color: $light !important;
+    }
+}
+
+.black {
+    color: $black;
+
+    &:hover,&:focus,&:focus {
+        color: $black !important;
+    }
+}
+
+.fff {
+    color: $fff;
+
+    &:hover,&:focus {
+        color: $fff !important;
+    }
+}
+
+.theme1-bg {
+    background-color: $theme1;
+}
+
+.theme2-bg {
+    background-color: $theme2;
+}
+
+.body-bg {
+    background-color: $body;
+}
+
+.light-bg {
+    background-color: $light;
+}
+
+.black-bg {
+    background-color: $black;
+}
+
+.fff-bg {
+    background-color: $fff;
+}

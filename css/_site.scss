@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background-color: $theme1;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+
+    &:hover {
+        color: inherit;
+    }
+}
+
+i {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the main scrollbar container */
+/* You can adjust the width and color as needed */
+::-webkit-scrollbar {
+    width: 10px;
+    // background-color: #f1f1f1;
+    background: none;
+    height: 3px;
+    bottom: 2px;
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+/* You can adjust the width and color as needed */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    background-color: $black;
+    border-radius: 5px;
+}
+
+/* Style the track (the non-draggable part of the scrollbar) */
+/* You can adjust the color as needed */
+::-webkit-scrollbar-track {
+    background: $theme1;
+}
